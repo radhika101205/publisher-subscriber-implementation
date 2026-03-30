@@ -52,13 +52,13 @@ Open two more terminals. To observe the 5-second alternating behavior correctly,
 ```
 ## Expected Behavior Simulation
 
-    At t = 0: PUB1 sends sports:vkohli and weather:rainy. SUB1 will print both; SUB3 will print the sports message.
+At t = 0: PUB1 sends sports:vkohli and weather:rainy. SUB1 will print both; SUB3 will print the sports message.
 
-    At t = 5: PUB2 sends technology:cricket. SUB2 and SUB3 will print this message.
+At t = 5: PUB2 sends technology:cricket. SUB2 and SUB3 will print this message.
 
-    At t = 10: PUB1 sends again.
+At t = 10: PUB1 sends again.
 
-    This cycle repeats indefinitely until the processes are terminated via Ctrl+C.
+This cycle repeats indefinitely until the processes are terminated via Ctrl+C.
 
 ## Test screenshots
 
